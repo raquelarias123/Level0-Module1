@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VennDiagramOfMe",
+            "request": "launch",
+            "mainClass": "_02_colors.VennDiagram.VennDiagramOfMe",
+            "projectName": "Level0-Module1_26c0ea06"
+        },
+        {
+            "type": "java",
             "name": "FixThePrint",
             "request": "launch",
             "mainClass": "_06_spot_the_error.FixThePrint"
