@@ -8,19 +8,19 @@ public class VennDiagramOfMe extends PApplet {
     public void draw() {
         background(255); // Ensuring background is white to see the drawings
 
-        fill(0, 250, 0, 100);
+        fill(150, 0, 150, 50);
         ellipse(350, 250, 200, 200);
         
-        fill(250, 0, 0, 100);
+        fill(200, 0, 0, 100);
         ellipse(200, 250, 200, 200);
 
-        fill(0, 0, 250, 100);
+        fill(0, 200, 200, 175);
         ellipse(275, 350, 200, 200);
 
         fill(0, 0, 0, 100);
         textSize(25);
-        text("angry", 150, 200);
-        text("happy", 325, 200);
+        text("angry", 150, 250);
+        text("happy", 325, 250);
         text("sad", 250, 375);
     }
 
